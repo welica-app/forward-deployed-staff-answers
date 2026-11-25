@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Staff answers</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f3f6f3;
+      color: #172923;
+      font: 1rem/1.5 system-ui, sans-serif;
+    }
+    main { max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem; }
+    h1 { margin: 0 0 1.25rem; line-height: 1.15; }
+    h2 { margin-top: 0; font-size: 1.125rem; }
+    form, section {
+      background: #fff;
+      border: 1px solid #cdd9d2;
+      border-radius: .75rem;
+      padding: 1.25rem;
+      margin: 0 0 1rem;
+    }
+    label { display: block; font-weight: 650; }
+    textarea {
+      width: 100%;
+      display: block;
+      margin: .5rem 0 .75rem;
+      border: 1px solid #657e71;
+      border-radius: .375rem;
+      padding: .625rem;
+      resize: vertical;
+      font: inherit;
+    }
+    button { cursor: pointer; font: inherit; }
+    button:focus-visible, textarea:focus-visible { outline: 3px solid #08765b; outline-offset: 2px; }
+    button[type="submit"] {
+      background: #1e5848;
+      color: white;
+      border: 0;
+      border-radius: .375rem;
+      padding: .5rem 1rem;
+    }
+    button:disabled { opacity: .6; cursor: wait; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: .5rem; }
+    #cases button {
+      border: 0;
+      background: transparent;
+      color: #14533f;
+      text-decoration: underline;
+      padding: .125rem;
+      text-align: left;
+    }
+    #message:empty { display: none; }
+    #answer { white-space: pre-wrap; overflow-wrap: anywhere; }
+  </style>
+  <script src="/screen.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Staff answers</h1>
+    <form id="ask">
+      <label for="question">Staff question</label>
+      <textarea id="question" rows="3" required maxlength="1000"></textarea>
+      <button type="submit">Ask</button>
+    </form>
+    <p id="message" role="status"></p>
+    <section id="result" aria-labelledby="result-title" aria-live="polite" hidden>
+      <h2 id="result-title"></h2>
+      <p id="answer"></p>
+      <div id="source-list" hidden>
+        <strong id="source-label"></strong>
+        <ul id="sources"></ul>
+      </div>
+    </section>
+    <section aria-labelledby="cases-title">
+      <h2 id="cases-title">Sample questions</h2>
+      <ul id="cases"></ul>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  {"id": "Q1", "question": "At what point do I report a late courier pickup?"},
+  {"id": "Q2", "question": "Where should I put a bag if a meal is missing during packing?"},
+  {"id": "Q3", "question": "Who handles a delivery address change after the courier collects the bag?"},
+  {"id": "Q4", "question": "When do we add open dispatch tickets to the shift handover?"},
+  {"id": "Q5", "question": "What is the most we can refund for a missing meal?"},
+  {"id": "Q6", "question": "How many days should we keep a delivery photo after drop-off?"}
+]

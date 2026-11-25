@@ -1,0 +1,49 @@
+{
+  "title": "Meal delivery staff handbook",
+  "evidenceStatus": "approved",
+  "fallbackContact": "shift lead",
+  "passages": [
+    {
+      "id": "HB-01",
+      "title": "Late courier pickup",
+      "status": "approved",
+      "text": "Open one dispatch ticket if the courier is still absent 12 minutes after the planned pickup. Add the kitchen code and planned pickup time."
+    },
+    {
+      "id": "HB-02",
+      "title": "Missing meal during packing",
+      "status": "approved",
+      "text": "If a meal is missing during the packing check, keep the affected bag at the packing table. Tell the packing lead. Other bags can go out as planned."
+    },
+    {
+      "id": "HB-03",
+      "title": "Delivery address changes",
+      "status": "approved",
+      "text": "Update the delivery address on the staff order screen before the courier collects the bag. Once the courier collects the bag, send the address change to the dispatch desk."
+    },
+    {
+      "id": "HB-04",
+      "title": "Open tickets at shift handover",
+      "status": "approved",
+      "text": "Add all open dispatch tickets to the shift handover by 18:30 local time. Record each ticket number and the person responsible for it."
+    },
+    {
+      "id": "HB-05",
+      "title": "Refund requests",
+      "status": "approved",
+      "text": "Put refund requests in the review queue for the duty lead. Record the order number and the reason for the request."
+    },
+    {
+      "id": "HB-06",
+      "title": "Delivery photo upload issues",
+      "status": "approved",
+      "text": "If a delivery photo fails to upload, record the order number in the dispatch log. Tell the shift lead before handover."
+    },
+    {
+      "id": "ARCH-01",
+      "title": "Late courier pickup",
+      "status": "archived",
+      "text": "If a courier is still absent 8 minutes after the planned pickup, send a message in the courier chat."
+    }
+  ]
+}

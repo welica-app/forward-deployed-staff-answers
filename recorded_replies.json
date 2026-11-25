@@ -1,0 +1,46 @@
+{
+  "Q1": {
+    "ifSource": "HB-01",
+    "draft": {
+      "answer": "Open one dispatch ticket after 12 minutes. Give the kitchen code and planned pickup time.",
+      "sourceIds": ["HB-01"]
+    },
+    "withoutSource": {
+      "answer": "Send a message in the courier chat after 8 minutes.",
+      "sourceIds": ["ARCH-01"]
+    }
+  },
+  "Q2": {
+    "ifSource": "HB-02",
+    "draft": {
+      "answer": "Keep the affected bag at the packing table and tell the packing lead.",
+      "sourceIds": ["HB-02"]
+    }
+  },
+  "Q3": {
+    "ifSource": "HB-03",
+    "draft": {
+      "answer": "Send the address change to the dispatch desk.",
+      "sourceIds": ["HB-03"]
+    }
+  },
+  "Q4": {
+    "ifSource": "HB-04",
+    "draft": {
+      "answer": "Add the open dispatch tickets by 18:30 local time.",
+      "sourceIds": ["HB-04"]
+    }
+  },
+  "Q5": {
+    "draft": {
+      "answer": "Staff can refund up to half the order value.",
+      "sourceIds": ["HB-05"]
+    }
+  },
+  "Q6": {
+    "draft": {
+      "answer": "Keep delivery photos for 30 days after drop-off.",
+      "sourceIds": ["HB-09"]
+    }
+  }
+}
